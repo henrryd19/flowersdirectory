@@ -12,7 +12,7 @@
         <a class="nav-link active" href="{{ route('flowers.index') }}">Flower</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="{{ route('regions.index') }}">Region</a>
+        <a class="nav-link avtive" href="{{ route('regions.index') }}">Region</a>
     </li>
 @endsection
 
@@ -30,7 +30,7 @@
                 {{ session('error') }}
             </div>
         @endif   
-        <a href="{{route('flowers.create')}}" class="btn btn-success">Add</a>
+        <  href="{{route('flowers.create')}}" class="btn btn-success">Add</>
         <table class="table">
             <thead>
                 <tr>

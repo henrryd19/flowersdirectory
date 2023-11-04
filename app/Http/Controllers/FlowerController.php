@@ -35,7 +35,7 @@ class FlowerController extends Controller
         $validateData = $request->validate([
             'name' => 'required',
             'description' => 'required',
-            'image_url' => 'required csv,txt,xlx,xls,p',
+            'image_url' => 'required',
         ]);
 
         // Create a new instance of flower model

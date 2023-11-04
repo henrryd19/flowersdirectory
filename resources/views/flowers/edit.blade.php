@@ -44,11 +44,9 @@
                     <span class="input-group-text" id="basic-addon1">Image</span>
                     <input type="text" class="form-control" aria-describedby="basic-addon1" name="image_url"
                         value="{{ $flower->image_url}}">
-                </div>      
-
-            </div>
+                </div>  
                 <div class="d-flex gap-2 justify-content-end ">
-                    <button type="submit" class="btn btn-success">Save</button>
+                    <button type="submit" name="btnEdit" class="btn btn-success">Save</button>
                     <a href="{{route('flowers.index')}}" class="btn btn-warning">Back</a>
                 </div>
             </div>
